@@ -1,0 +1,15 @@
+com\mx\villalobos\biblioteca\appbiblioteca\dto\request\AuthorDTORequest.class
+com\mx\villalobos\biblioteca\appbiblioteca\constants\BibliotecaConstant.class
+com\mx\villalobos\biblioteca\appbiblioteca\dto\AuthorDTO.class
+com\mx\villalobos\biblioteca\appbiblioteca\model\Author.class
+com\mx\villalobos\biblioteca\appbiblioteca\repository\AuthorRepository.class
+com\mx\villalobos\biblioteca\appbiblioteca\repository\EditorialRepository.class
+com\mx\villalobos\biblioteca\appbiblioteca\dto\AuthorDTO$AuthorDTOBuilder.class
+com\mx\villalobos\biblioteca\appbiblioteca\dto\LibraryDTO.class
+com\mx\villalobos\biblioteca\appbiblioteca\model\Editorial.class
+com\mx\villalobos\biblioteca\appbiblioteca\service\AuthorService.class
+com\mx\villalobos\biblioteca\appbiblioteca\controller\LibraryController.class
+com\mx\villalobos\biblioteca\appbiblioteca\AppBibliotecaApplication.class
+com\mx\villalobos\biblioteca\appbiblioteca\service\LibraryService.class
+com\mx\villalobos\biblioteca\appbiblioteca\dto\LibraryDTO$LibraryDTOBuilder.class
+com\mx\villalobos\biblioteca\appbiblioteca\dto\request\AuthorDTORequest$AuthorDTORequestBuilder.class
