@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.mx.villalobos.biblioteca.appbiblioteca.constants.BibliotecaConstant;
 import com.mx.villalobos.biblioteca.appbiblioteca.dto.AuthorDTO;
+import com.mx.villalobos.biblioteca.appbiblioteca.dto.request.AuthorDTORequest;
 import com.mx.villalobos.biblioteca.appbiblioteca.model.Author;
 import com.mx.villalobos.biblioteca.appbiblioteca.repository.AuthorRepository;
 import com.mx.villalobos.biblioteca.appbiblioteca.service.AuthorService;
@@ -34,5 +35,11 @@ public class AuthorServiceImpl implements AuthorService {
 				.authorName(author.getName() + " " + author.getLastName())
 				.build();
 	}
+
+	@Override
+	public AuthorDTO saveSQL(AuthorDTORequest dto) {
+		return convertBeanToDto(this.authorRepository.saveSQL(dto.getName(),dto.getLastName()));
+	}
+	
 	
 }

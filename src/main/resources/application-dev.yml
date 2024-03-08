@@ -12,3 +12,14 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: none
+
+##Activar en dev y qa, desactivar en prod
+springdoc:
+  swagger-ui: 
+      enabled: true
+      path: /swagger-ui.html
+  api-docs:
+    enabled: true
+    path: /api-docs
+  packages-to-scan:
+  - com.mx.villalobos.biblioteca.appbiblioteca.controller

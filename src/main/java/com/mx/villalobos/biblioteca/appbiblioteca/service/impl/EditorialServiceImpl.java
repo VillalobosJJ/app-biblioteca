@@ -3,6 +3,8 @@ package com.mx.villalobos.biblioteca.appbiblioteca.service.impl;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import com.mx.villalobos.biblioteca.appbiblioteca.constants.BibliotecaConstant;
@@ -61,6 +63,12 @@ public class EditorialServiceImpl implements EditorialService {
 		});
 		return listDto;
 		
+	}
+
+	@Override
+	public Page<EditorialDTO> findByNameLike(String name, Pageable pageable) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mx.villalobos.biblioteca.appbiblioteca.constants.BibliotecaConstant;
 import com.mx.villalobos.biblioteca.appbiblioteca.dto.EditorialDTO;
 import com.mx.villalobos.biblioteca.appbiblioteca.dto.request.EditorialDTORequest;
-import com.mx.villalobos.biblioteca.appbiblioteca.model.Editorial;
 import com.mx.villalobos.biblioteca.appbiblioteca.service.EditorialService;
 
 @RestController

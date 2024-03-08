@@ -6,13 +6,13 @@ import lombok.Builder;
 import lombok.Data;
 
 @Data
-public class EditorialDTO implements Serializable{
+@Builder
+public class LibraryDTO implements Serializable {
 	
-	public EditorialDTO() {
-		// TODO Auto-generated constructor stub
-	}
 	private Long id;
 	private String name;
-	
+	private String description;
+	private String address;
+
 
 }
